@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Group Tabs by Domain",
+  "version": "1.0",
+
+  "description": "Groups Tree Style Tabs by Domain",
+
+  "browser_action": {
+    "default_icon": "icons/sort.svg",
+    "default_title": "Group Tabs by Domain"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
